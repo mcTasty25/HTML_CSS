@@ -1,0 +1,25 @@
+h1,
+h2 {
+    /* multiple selectiors */
+    color: blueviolet;
+    ;
+}
+
+div>p {
+    /*child selector*/
+    color: firebrick;
+}
+
+div ul li {
+    /* descendent selector */
+    color: blue;
+}
+
+li.done {
+    /* chaining selector */
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
